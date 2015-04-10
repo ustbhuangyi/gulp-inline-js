@@ -1,0 +1,33 @@
+{
+  "name": "gulp-inline-js",
+  "version": "0.0.1",
+  "description": "在js文件中嵌入其它js文件，支持递归嵌入",
+  "author": {
+    "name": "huangyi",
+    "email": "ustbhuangyi@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ustbhuangyi/gulp-inline-js/issues"
+  },
+  "engines": {
+    "node": ">=0.9"
+  },
+  "homepage": "https://github.com/ustbhuangyi/gulp-inline-js/",
+  "keywords": [
+    "gulpplugin",
+    "js",
+    "inline"
+  ],
+  "licenses": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ustbhuangyi/gulp-inline-js.git"
+  },
+  "dependencies": {
+    "vinyl": "^0.4.0",
+    "gulp-util": ">=3.0.0 <4.0.0-0",
+    "through2": ">=0.6.1 <1.0.0-0",
+    "iconv-lite": "0.2.10"
+  }
+}
